@@ -1,0 +1,41 @@
+Assignment
+
+A multi-URL-request python project 
+
+Create a python REST web service that can take multiple requests concurrently 
+
+  
+
+Requirements 
+
+  
+
+* create web services that can perform the following functions 
+
+  * /healthCheck - a rest method will tell if web service is up and ready to serve 
+
+  * /storeRecords - a rest method that will upload a file (WORD) and store into a backend database 
+
+  * /word/<id> - re rest method that will return a particular word base on ID provide 
+
+  * write a simple test to test your webservice. This test should simpulate multi requests 
+
+* web service will run from within a Docker 
+
+* create a Makefile to provide the following command in order to automate whole process 
+
+  * docker-build - install and configure your web services 
+
+  * docker-run - run your container and ready to serve your web service 
+
+  * healthcheck - run health check 
+
+  * upload-data - up load data 
+
+  * run-test - run your test 
+
+  * stop-container - stop a running container 
+
+  * all - run all above commands in the order of building a container, runnning a container, upload data, run test, and stop the cotainer 
+
+ 
